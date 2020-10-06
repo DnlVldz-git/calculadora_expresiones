@@ -16,13 +16,15 @@ public class main {
         System.out.println("Asegúrese de que operadores y números estén separados por espacios,");
         System.out.println("excepto cuando sea un número negativo, en ese caso escriba el signo negativo junto el número");
         System.out.println("Ejemplo: '1 + ( -4 ) + 2 - 2 / ( 1 / 1 )'");
-        System.out.println("Introduzca el número de expresiones en el archivo, incluyendo el nombre del archivo, ejemplo: ");
-        System.out.println("/Users/macbook/desktop/input.txt");
+        System.out.println("Introduzca el número de expresiones en el archivo");
+       
 
         
         int tam = leer.nextInt();
         leer.nextLine();
-        System.out.println("Introduzca la dirección del archivo: "); //se pide la dirección del archivo
+        
+        System.out.println("Introduzca la dirección del archivo, incluyendo el nombre del archivo, ejemplo:  "); //se pide la dirección del archivo
+        System.out.println("/Users/macbook/desktop/input.txt");
         String direccion = leer.nextLine();
         lista colita = new lista();
         
