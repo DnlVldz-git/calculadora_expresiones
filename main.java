@@ -16,7 +16,7 @@ public class main {
         System.out.println("Asegúrese de que operadores y números estén separados por espacios,");
         System.out.println("excepto cuando sea un número negativo, en ese caso escriba el signo negativo junto el número");
         System.out.println("Ejemplo: '1 + ( -4 ) + 2 - 2 / ( 1 / 1 )'");
-        System.out.println("Introduzca el número de expresiones en el archivo");
+        System.out.println("\nIntroduzca el número de expresiones en el archivo");
        
 
         
